@@ -1,59 +1,41 @@
-# Movieflix
+# 🎬 MovieFlix - Projeto Front-End
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.5.
+Este projeto tem como objetivo construir o front-end da aplicação **MovieFlix**, utilizando como base um layout desenvolvido no Figma. O desenvolvimento será dividido em duas fases: uso de dados mockados e posterior integração com uma API backend feita em Java.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🎨 Protótipo do Layout (Figma)
 
-```bash
-ng serve
-```
+O layout utilizado como referência está disponível no seguinte link:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+👉 [Acessar protótipo no Figma](https://www.figma.com/proto/FSkHiMRTRa09CljCjXmedJ/P%C3%A1ginas-Hor%C3%A1cio?page-id=195%3A20&node-id=195-21&p=f&viewport=93%2C29%2C0.29&t=BZ0d8wCey2K8NzLL-1&scaling=contain&content-scaling=fixed)
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📌 Etapas do Desenvolvimento
 
-```bash
-ng generate component component-name
-```
+### ✅ Fase 1 — Layout com Mocks
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Construção da interface com base no protótipo do Figma
+- Uso de dados **mockados** (estáticos) para simular os conteúdos
+- Validação visual e responsividade
 
-```bash
-ng generate --help
-```
+### 🔗 Fase 2 — Integração com Backend Java
 
-## Building
+- Consumo de dados reais via API REST
+- Integração com funcionalidades do backend
+- Refatoração dos componentes para consumir os endpoints
 
-To build the project run:
+🔗 Repositório do backend em Java:  
+[https://github.com/Enzosantos04/movieflix](https://github.com/Enzosantos04/movieflix)
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🚀 Como iniciar o projeto
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Instale as dependências e rode o servidor de desenvolvimento:
 
 ```bash
-ng test
+npm install
+npm run dev
 ```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
